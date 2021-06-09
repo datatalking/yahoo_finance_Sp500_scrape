@@ -18,13 +18,14 @@
 
 
 
-
 import bs4 as bs
 import pickle # remove pickle and sub in csv
 import requests
 import datetime as dt
 import os
 import pandas_datareader.data as pdr
+import numpy
+import lxml
 
 
 def main():
