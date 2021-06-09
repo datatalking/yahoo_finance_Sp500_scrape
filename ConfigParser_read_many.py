@@ -5,6 +5,7 @@
 from ConfigParser import SafeConfigParser
 import codecs
 
+
 parser = SafeConfigParser()
 parser.read('multisection.ini')
 
@@ -24,3 +25,6 @@ password = parser.get('bug_tracker', 'password')
 
 print('Password:', password.encode('utf-8'))
 print()
+
+
+

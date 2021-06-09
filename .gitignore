@@ -11,7 +11,7 @@ celerybeat-schedule
 
 # data files CSV .pickle
 /stock_dfs
-.pickle
+*.pickle
 *.CSV
 
 # config files

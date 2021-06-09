@@ -15,7 +15,10 @@
 # TODO analyse news and clean up with https://hub.gke2.mybinder.org/user/residentmario-missingno-5wr46gm8/notebooks/QuickStart.ipynb
 # TODO setup https://christoolivier.com/what-is-up-with-__init__-py-and-__main__-py/ for each module
 # TODO https://support.apple.com/en-lb/guide/mac-help/mchlp1066/mac
+# TODO https://www.codementor.io/@mauhcs/train-neural-networks-faster-with-google-s-tpu-from-your-laptop-19e2gr17nv
 
+# jupyternotebook and google colab similar format.
+# TODO https://www.datasciencecentral.com/profiles/blogs/all-about-using-jupyter-notebooks-and-google-colab
 
 
 import bs4 as bs
@@ -31,6 +34,7 @@ import lxml
 def main():
     save_sp500_tickers()
     get_data_from_yahoo()
+    # TODO fix error handling for sp500tickers variable so it doesn't show as red error
     sp500tickers.pickle = open("csvfile.csv", " wb")
 
 
@@ -73,6 +77,12 @@ def get_data_from_yahoo(reload_sp500=False):
             df.to_csv('stock_dfs/{}.csv'.format(ticker))
         else:
             print('Already have {}'.format(ticker))
+
+
+def error_handling():
+    """a way to guage progress or issues"""
+    # should get <Response [200]>
+    # immediately followed by stocks_dfs folder being made and populated.
 
 
 if __name__ == "__main__":
