@@ -19,7 +19,7 @@
 
 # jupyternotebook and google colab similar format.
 # TODO https://www.datasciencecentral.com/profiles/blogs/all-about-using-jupyter-notebooks-and-google-colab
-
+# TODO TODO TODO FIRST FIRST FIRST https://developers.google.com/machine-learning/crash-course/
 
 import bs4 as bs
 import pickle # remove pickle and sub in csv
@@ -83,6 +83,10 @@ def error_handling():
     """a way to guage progress or issues"""
     # should get <Response [200]>
     # immediately followed by stocks_dfs folder being made and populated.
+    
+
+def yahoo_logfile():
+    """create a csv log file of date, time, run number, stocks updated, elapsed time, port number etc."""
 
 
 if __name__ == "__main__":

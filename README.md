@@ -8,8 +8,9 @@
 ##### Thanks to https://github.com/MartinThoma/cfg_load best practices
 
 ## Installation
+* The recommended way to install yahoo_finance_Sp500_scrape is PyCharm I've not licensed it yet.
+* Updated script for jupyternotebook, python3 and colab imports due to deprications since 2018 when first written
 
-The recommended way to install yahoo_finance_Sp500_scrape is PyCharm I've not licensed it yet.
 
 ## Usage
 
