@@ -1,10 +1,3 @@
-/stock_dfs
-*config*.py
-*config
-*.cfg
-*.ini
-.editorconfig
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -12,6 +5,22 @@ __pycache__/
 
 # C extensions
 *.so
+
+# celery beat schedule file
+celerybeat-schedule
+
+# CSV files
+# data files
+/stock_dfs
+
+# config files
+*config.py
+*config
+*.cfg
+*.ini
+.editorconfig
+*_config
+
 
 # Distribution / packaging
 .Python
@@ -32,18 +41,15 @@ wheels/
 *.egg
 MANIFEST
 
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
 
 
 # Django stuff:
@@ -56,34 +62,9 @@ local_settings.py
 instance/
 .webassets-cache
 
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-
-# mypy
-.mypy_cache/
 
 # project specific
 tests/reports/
@@ -91,3 +72,32 @@ ignore_deb.deb
 ignore_image.jpg
 ignore_pdf.pdf
 ignore_zip.zip
+
+# pyenv
+.python-version
+
+
+
+# mypy
+.mypy_cache/
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# SQL files
+.sql
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
