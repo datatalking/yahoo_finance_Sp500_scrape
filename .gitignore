@@ -1,5 +1,8 @@
 /stock_dfs
 *config.py
+*config
+*.cfg
+*.ini
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
