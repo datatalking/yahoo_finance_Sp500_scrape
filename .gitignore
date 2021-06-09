@@ -9,9 +9,10 @@ __pycache__/
 # celery beat schedule file
 celerybeat-schedule
 
-# CSV files
-# data files
+# data files CSV .pickle
 /stock_dfs
+.pickle
+*.CSV
 
 # config files
 *config.py
