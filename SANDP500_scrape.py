@@ -14,6 +14,10 @@
 # TODO https://www.youtube.com/watch?v=xfzGZB4HhEE
 # TODO analyse news and clean up with https://hub.gke2.mybinder.org/user/residentmario-missingno-5wr46gm8/notebooks/QuickStart.ipynb
 # TODO setup https://christoolivier.com/what-is-up-with-__init__-py-and-__main__-py/ for each module
+# TODO https://support.apple.com/en-lb/guide/mac-help/mchlp1066/mac
+
+
+
 
 import bs4 as bs
 import pickle # remove pickle and sub in csv
