@@ -10,7 +10,7 @@
 ## Installation
 * The recommended way to install yahoo_finance_Sp500_scrape is PyCharm I've not licensed it yet.
 * Updated script for jupyternotebook, python3 and colab imports due to deprications since 2018 when first written
-
+* needed to upload the csv manually as google colab is not very efficent ad you
 
 ## Usage
 
