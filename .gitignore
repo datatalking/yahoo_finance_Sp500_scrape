@@ -17,7 +17,8 @@ celerybeat-schedule
 *config.py
 *config
 *Config
-*Config.py
+database_config.cfg
+ConfigParser.ini
 *.cfg
 *.ini
 .editorconfig
