@@ -25,8 +25,8 @@ be used for pulling data off Yahoo Finance for machine learning backtesting.
 
 Not there now, but planned fo the future:
 
-* # TODO PATHing setup, location preferences etc.
-* # FIXME https://github.com/rjagait/Stock-Market-Prediction
+*  TODO PATHing setup, location preferences etc.
+*  FIXME https://github.com/rjagait/Stock-Market-Prediction
 *  https://www.learndatasci.com/tutorials/python-finance-part-yahoo-finance-api-pandas-matplotlib/
 *  https://www.thepythoncode.com/article/stock-price-prediction-in-python-using-tensorflow-2-and-keras
 *  https://pythonrepo.com/repo/VivekPa-NeuralNetworkStocks-python-deep-learning
