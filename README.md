@@ -27,20 +27,21 @@ Not there now, but planned fo the future:
 
 *  TODO PATHing setup, location preferences etc.
 *  FIXME https://github.com/rjagait/Stock-Market-Prediction
-*  https://www.learndatasci.com/tutorials/python-finance-part-yahoo-finance-api-pandas-matplotlib/
-*  https://www.thepythoncode.com/article/stock-price-prediction-in-python-using-tensorflow-2-and-keras
-*  https://pythonrepo.com/repo/VivekPa-NeuralNetworkStocks-python-deep-learning
-*  https://pypi.org/project/Backtesting/
-*  https://towardsdatascience.com/backtest-your-trading-strategy-with-only-3-lines-of-python-3859b4a4ab44
-*  https://www.datacamp.com/community/tutorials/finance-python-trading
-*  https://algotrading101.com/learn/backtrader-for-backtesting/
-*  https://www.quantstart.com/articles/backtesting-systematic-trading-strategies-in-python-considerations-and-open-source-frameworks/
-*  https://codingandfun.com/backtesting-with-python/
-*  https://kernc.github.io/backtesting.py/
-*  https://www.youtube.com/watch?v=xfzGZB4HhEE
-*  analyse news and clean up with https://hub.gke2.mybinder.org/user/residentmario-missingno-5wr46gm8/notebooks/QuickStart.ipynb
-*  setup https://christoolivier.com/what-is-up-with-__init__-py-and-__main__-py/ for each module
-*  https://support.apple.com/en-lb/guide/mac-help/mchlp1066/mac
+*  TODO https://www.learndatasci.com/tutorials/python-finance-part-yahoo-finance-api-pandas-matplotlib/
+*  TODO https://www.thepythoncode.com/article/stock-price-prediction-in-python-using-tensorflow-2-and-keras
+*  TODO https://pythonrepo.com/repo/VivekPa-NeuralNetworkStocks-python-deep-learning
+*  TODO https://pypi.org/project/Backtesting/
+*  TODO https://towardsdatascience.com/backtest-your-trading-strategy-with-only-3-lines-of-python-3859b4a4ab44
+*  TODO https://www.datacamp.com/community/tutorials/finance-python-trading
+*  TODO https://algotrading101.com/learn/backtrader-for-backtesting/
+*  TODO https://www.quantstart.com/articles/backtesting-systematic-trading-strategies-in-python-considerations-and-open-source-frameworks/
+*  TODO https://codingandfun.com/backtesting-with-python/
+*  TODO https://kernc.github.io/backtesting.py/
+*  TODO https://www.youtube.com/watch?v=xfzGZB4HhEE
+*  TODO analyse news and clean up with https://hub.gke2.mybinder.org/user/residentmario-missingno-5wr46gm8/notebooks/QuickStart.ipynb
+*  TODO setup https://christoolivier.com/what-is-up-with-__init__-py-and-__main__-py/ for each module
+*  TODO https://support.apple.com/en-lb/guide/mac-help/mchlp1066/mac
+*  TODO https://www.kaggle.com/samaxtech/predicting-s-p500-index-linearreg-randomforests
 
 
 

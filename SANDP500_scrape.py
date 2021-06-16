@@ -74,7 +74,7 @@ def get_data_from_yahoo(reload_sp500=False):
             df = pdr.DataReader(ticker.replace('.', '-'), 'yahoo', start, end)
             df.reset_index(inplace=True)
             df.set_index("Date", inplace=True)
-            df.to_csv('stock_dfs/{}.csv'.format(ticker))
+            df.to_csv(DATA_PATH + 'stock_dfs/{}.csv'.format(ticker)) # TODO save to /Data
         else:
             print('Already have {}'.format(ticker))
 
@@ -91,3 +91,4 @@ def yahoo_logfile():
 
 if __name__ == "__main__":
     main()
+    DATA_PATH = '/Users/vanessawilson/data/yahoo_finance_Sp500_scrape/'
