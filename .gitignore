@@ -13,6 +13,9 @@ celerybeat-schedule
 /stock_dfs
 *.pickle
 *.CSV
+/yahoo_finance_Sp500_scrape
+/financial_news_reader
+
 
 # config files
 *config.py
@@ -76,6 +79,7 @@ ignore_deb.deb
 ignore_image.jpg
 ignore_pdf.pdf
 ignore_zip.zip
+toolbox
 
 # pyenv
 .python-version

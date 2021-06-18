@@ -16,6 +16,9 @@
 # TODO setup https://christoolivier.com/what-is-up-with-__init__-py-and-__main__-py/ for each module
 # TODO https://support.apple.com/en-lb/guide/mac-help/mchlp1066/mac
 # TODO https://www.codementor.io/@mauhcs/train-neural-networks-faster-with-google-s-tpu-from-your-laptop-19e2gr17nv
+# TODO https://github.com/alvarobartt/trendet/
+# TODO https://investpy.readthedocs.io/_info/related_projects.html
+# https://github.com/mementum/backtrader
 
 # jupyternotebook and google colab similar format.
 # TODO https://www.datasciencecentral.com/profiles/blogs/all-about-using-jupyter-notebooks-and-google-colab
