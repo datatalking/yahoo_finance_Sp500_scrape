@@ -32,6 +32,7 @@ import os
 import pandas_datareader.data as pdr
 import numpy
 import lxml
+import getpass
 
 
 def main():
@@ -90,8 +91,20 @@ def error_handling():
 
 def yahoo_logfile():
     """create a csv log file of date, time, run number, stocks updated, elapsed time, port number etc."""
+    
+    
+
+def five_min_gap(): # TODO P7PF-3
+    tickers = [  # list of 1000+ stock tickers]
+        for ticker in tickers:
+    data = yf.download(tickers=ticker, period='30m', interval='1m')
+    output.append({"Ticker": ticker, "Price": data.tail(1)['Open'].values[0], "Volume":
+        data.tail(1)['Volume'].values[0]})
 
 
 if __name__ == "__main__":
+    user_name = getpass.getuser()
+    DATA_PATH = f'/Users/{}/Data/yahoo_finance_Sp500_scrape/'.format(user_name) #FIXME P7PF-2
     main()
-    DATA_PATH = '/Users/vanessawilson/data/yahoo_finance_Sp500_scrape/'
+
+    
