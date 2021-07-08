@@ -30,5 +30,7 @@ Not there now, but planned fo the future:
 
 ## In Development
 
+# TODO add https://github.com/datatalking/regression-stock-prediction/blob/master/linear.py
+# TODO add https://github.com/datatalking/Predicting-Stock-Prices-with-Linear-Regression
 * Add coverage tests
   Check tests with `tox`.
