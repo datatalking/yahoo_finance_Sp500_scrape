@@ -18,6 +18,7 @@
 # TODO https://www.codementor.io/@mauhcs/train-neural-networks-faster-with-google-s-tpu-from-your-laptop-19e2gr17nv
 # TODO https://github.com/alvarobartt/trendet/
 # TODO https://investpy.readthedocs.io/_info/related_projects.html
+# TODO an option for individuals https://help.yahoo.com/kb/finance-for-web/download-historical-data-yahoo-finance-sln2311.html
 # https://github.com/mementum/backtrader
 
 # jupyternotebook and google colab similar format.
@@ -30,6 +31,7 @@ import requests
 import datetime as dt
 import os
 import pandas_datareader.data as pdr
+
 import numpy
 import lxml
 import getpass
@@ -74,11 +76,11 @@ def get_data_from_yahoo(reload_sp500=False):
     end = dt.datetime.now()
 
     for ticker in tickers:
-        if not os.path.exists('stock_dfs/{}.csv'.format(ticker)):
+        if not os.path.exists(CSV_SAVE_PATH + 'stock_dfs/{}.csv'.format(ticker)):
             df = pdr.DataReader(ticker.replace('.', '-'), 'yahoo', start, end)
             df.reset_index(inplace=True)
             df.set_index("Date", inplace=True)
-            df.to_csv(DATA_PATH + 'stock_dfs/{}.csv'.format(ticker)) # TODO save to /Data
+            df.to_csv(CSV_SAVE_PATH + 'stock_dfs/{}.csv'.format(ticker)) # TODO save to /Data
         else:
             print('Already have {}'.format(ticker))
 
@@ -93,18 +95,21 @@ def yahoo_logfile():
     """create a csv log file of date, time, run number, stocks updated, elapsed time, port number etc."""
     
     
-
+"""
 def five_min_gap(): # TODO P7PF-3
     tickers = [  # list of 1000+ stock tickers]
         for ticker in tickers:
     data = yf.download(tickers=ticker, period='30m', interval='1m')
     output.append({"Ticker": ticker, "Price": data.tail(1)['Open'].values[0], "Volume":
         data.tail(1)['Volume'].values[0]})
-
+"""
 
 if __name__ == "__main__":
-    user_name = getpass.getuser()
-    DATA_PATH = f'/Users/{}/Data/yahoo_finance_Sp500_scrape/'.format(user_name) #FIXME P7PF-2
+    user_name = getpass.getuser() # TODO fix this
+    CSV_SAVE_PATH = '~/Users/wadewilson/Library/Mobile Documents/com~apple~CloudDocs/Data/Financial/yahoo_sp500/'
+    DATA_PATH = f'/Users/wadewilson/Library/Mobile Documents/com~apple~CloudDocs/Data/Financial' # TODO FIXME b4 running
+    # DATA_PATH = f'/Users/wadewilson/Data/yahoo_finance_Sp500_scrape/'
+    # DATA_PATH = f'/Users/{}/Data/yahoo_finance_Sp500_scrape/'.format(user_name) #FIXME P7PF-2
     main()
 
     
