@@ -12,8 +12,9 @@ import seaborn as sns
 
 
 def main():
-    DATA_PATH = '/Users/vanessawilson/Data/yahoo_finance_Sp500_scrape/stock_dfs/'
-    SAMPLE_DATA_PATH = '/Users/vanessawilson/Data/yahoo_finance_Sp500_scrape/stock_dfs/'
+    Users = ['Beck_Smith', 'John_Smith', 'Bob_Smith', 'Sam_Smith', 'Dave_Smith']
+    DATA_PATH = ['/Users/{}}/Data/yahoo_finance_Sp500_scrape/stock_dfs/'].format(Users)
+    SAMPLE_DATA_PATH = ['/Users/{}/Data/yahoo_finance_Sp500_scrape/stock_dfs/'].format(Users)
     sphist = ''
     sphist = pd.read_csv(SAMPLE_DATA_PATH + 'sphist.csv')
     data_accessing(SAMPLE_DATA_PATH)

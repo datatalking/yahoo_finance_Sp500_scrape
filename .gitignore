@@ -79,7 +79,9 @@ ignore_deb.deb
 ignore_image.jpg
 ignore_pdf.pdf
 ignore_zip.zip
-toolbox
+toolbox/pars_investing_news
+/Menu_Data_Processing
+
 
 # pyenv
 .python-version
